@@ -4,4 +4,75 @@
     box-sizing: border-box;
 }
 
-font-family: 'Cabin', sans-serif;
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8vw;
+}
+
+nav img{
+    cursor: pointer;
+}
+
+#banner{
+    width: 100%;
+}
+
+#info-produtos{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    border-bottom: 0.2px solid #A5A1A1;
+}
+
+#info-produtos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#info-produtos p{
+    font-weight: 700;
+}
+
+#master-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont-cards{
+    border: solid red 3px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 160vh;
+    width: 60vw;
+}
+
+.card{
+    border: solid green 3px;
+    width: 15vw;
+    height: 50vh;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+
+
