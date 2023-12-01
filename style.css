@@ -8,43 +8,53 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+#topo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
+    width: 90vw;
 }
 
-header nav{
+#menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 8vw;
 }
 
-nav img{
+#menu img{
     cursor: pointer;
 }
+
 
 #banner{
     width: 100%;
 }
 
 #info-produtos{
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    border-bottom: 0.2px solid #e3e0e0;
+}
+
+#info{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
-    border-bottom: 0.2px solid #A5A1A1;
+    width: 90vw;
 }
 
-#info-produtos{
-    display: flex;
-    justify-content: space-between;
-}
-
-#info-produtos p{
+#titulo{
     font-weight: 700;
 }
 
@@ -72,6 +82,7 @@ nav img{
 .card img {
     width: 100%;
 }
+
 
 
 
