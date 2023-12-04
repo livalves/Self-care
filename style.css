@@ -8,7 +8,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-
+/* header */
 header{
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@ header{
     cursor: pointer;
 }
 
-
+/* main */
 #banner{
     width: 100%;
 }
@@ -58,29 +58,57 @@ header{
     font-weight: 700;
 }
 
+/* main - cards */
 #master-cards{
+    margin-top: 1%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-#cont-cards{
-    border: solid red 3px;
+.box-cards{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 160vh;
-    width: 60vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
 }
 
 .card{
-    border: solid green 3px;
-    width: 15vw;
-    height: 50vh;
+    width: 20vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card img {
     width: 100%;
+}
+
+.caixa-texto{
+    width: 15vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card span {
+    color: #5CA720;
+    text-decoration: underline;
+}
+
+.card button {
+    border: none;
+    width: 8vw;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: #5CA720;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
 }
 
 
