@@ -140,8 +140,10 @@
 
             <form action="#">
                 <label for="nletter">Newsletter</label><br>
-                <input type="text" id="nletter" name="nletter" value="Digite seu melhor e-mail"><br>
-                <input type="submit" value="Submit">
+                <div id="box-email">
+                    <input id="campo-email" type="text" id="nletter" name="nletter" placeholder="Digite seu melhor e-mail"><br>
+                    <input id="button-email" type="submit" value="Inscrever">
+                </div>
             </form>
         </section>
 
@@ -157,9 +159,9 @@
             </div>
 
             <div id="box-pagamentos">
-                <img src="/imagens/logo-master.png" alt="Logo da Mastercard">
-                <img src="/imagens/logo-paypal.png" alt="Logo do PayPal">
-                <img src="/imagens/logo-visa.png" alt="Logo da Visa">
+                <img id="pag-master" src="/imagens/logo-master.png" alt="Logo da Mastercard">
+                <img id="pag-pay" src="/imagens/logo-paypal.png" alt="Logo do PayPal">
+                <img id="pag-visa" src="/imagens/logo-visa.png" alt="Logo da Visa">
             </div>
         </section>
     </footer>
