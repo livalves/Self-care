@@ -136,7 +136,6 @@ footer{
     align-items: center;
     border-top: 0.6px solid #e3e0e0;
     background-color: #F9F9F9;
-    ;
 }
 
 #direcionamento{
@@ -236,10 +235,54 @@ footer{
     cursor: pointer;
 }
 
-@media (max-width: 420px) {
-
-}
-
-@media (max-width: 500px) {
-
+@media (max-width: 480px) {
+    #topo{
+        width: 80vw;
+    }
+    #menu{
+        width: 20vw;
+    }
+    #info{
+        width: 80vw;
+    }
+    .box-cards{
+        justify-content: center;
+        width: 80vw;
+        flex-wrap: wrap;
+    }
+    .card{
+        padding-top: 6% 0%;
+        width: 80vw;
+        height: 60vh;
+    }
+    .caixa-texto{
+        width: 50vw;
+        height: 10vh;
+    }
+    .card button {
+        width: 25vw;
+    }
+    #direcionamento{
+        height: 25vh;
+        width: 80vw;
+        flex-direction: column;
+    }
+    #direcionamento ul{
+        width: 100%;
+        padding: 5% 0%;
+    }
+    #direcionamento form{
+        width: 100%;
+    }
+    #box-email{
+        width: 100%;
+        flex-direction: column;
+    }
+    #campo-email, #button-email{
+        border-radius: 5px 5px 5px 5px;
+    }    
+    #redes-pag{
+        width: 80vw;
+        height: 20vh;
+    }
 }
